@@ -1,4 +1,4 @@
-myscrap
+myscraper
 =======
 
-MyScrap is web scraping experiment with node
+MyScraper is web scraping experiment with node
