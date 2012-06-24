@@ -4,7 +4,7 @@
  */
 
 exports.index = function(req, res) {
-  res.render('index', { title: 'MyScrap' })
+  res.render('index', { title: 'MyScraper' })
 };
 
 exports.scraper = function(req, res) {
