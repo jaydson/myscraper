@@ -1,0 +1,25 @@
+h1= title
+div(id='description') 
+	p #{title} is a web scraping experiment with node ;)
+div(id='container')
+	form(name='form', method='post', action='scraper',target='result')
+		span URL:
+		div
+			input(name='url', value='http://')
+			span  (Ex: google.com)
+		br
+		span Selector:
+		div 
+			input(name='selector')
+			span  (Ex: #mydiv p.myclass)
+		div
+		br
+		span Data Type: 
+			select(name='type')
+				option(value="html") HTML
+				option(value="json") JSON						
+		span
+			input(id='submit',type='submit', value='Scrap!')
+		div
+			span Result:
+		iframe(name='result')
