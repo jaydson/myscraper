@@ -2,7 +2,7 @@
   "version": "0.0.1-4",
   "private": true,
   "dependencies": {
-    "express": "2.5.10",
+    "express": "4.17.1",
     "jade": ">= 0.0.1",
     "scraper": ">= 0.0.9"
   },
